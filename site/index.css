@@ -54,7 +54,7 @@ body{
 }
 
 .menu li a:hover{
-    font-size: 1.75rem;
+    color: var(--accent-color);
 }
 
 .mainContainer{
@@ -146,4 +146,38 @@ body{
     align-items: center;
     box-shadow: 3px 3px 10px var(--bg-nav-default);
     font-size: 1.3rem;
+}
+
+.paragraphe{
+    font-size: 1.3rem;
+}
+
+.liste{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+    color: var(--bg-color-default);
+}
+
+.liste li::before{
+    content: "- ";
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.competences{
+    border: 2px solid var(--accent-color);
+    background-color: #F8F2ED;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+}
+
+.titre{
+    color: var(--accent-color);
+}
+
+.containerCompetences{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
 }
